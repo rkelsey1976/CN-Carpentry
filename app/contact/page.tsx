@@ -56,7 +56,7 @@ export default function ContactPage() {
                 >
                   07948 643391
                 </a>
-                <p className="text-stone-500 dark:text-stone-400 text-sm mt-1">
+                <p className="text-stone-600 dark:text-stone-400 text-sm mt-1">
                   Mon - Fri, 7am - 6pm
                 </p>
               </div>
@@ -73,7 +73,7 @@ export default function ContactPage() {
                 >
                   cn.carpentry@yahoo.com
                 </a>
-                <p className="text-stone-500 dark:text-stone-400 text-sm mt-1">
+                <p className="text-stone-600 dark:text-stone-400 text-sm mt-1">
                   We reply within 24 hours
                 </p>
               </div>

@@ -41,7 +41,7 @@ export default function Home() {
               />
               <div className="absolute -bottom-4 -left-4 bg-white dark:bg-stone-800 rounded-xl shadow-xl p-4">
                 <p className="text-primary-600 font-bold text-lg">Van Conversions</p>
-                <p className="text-stone-500 text-sm">A service unique to us!</p>
+                <p className="text-stone-600 text-sm">A service unique to us!</p>
               </div>
             </div>
           </div>

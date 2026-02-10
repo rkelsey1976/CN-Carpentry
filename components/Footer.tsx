@@ -90,18 +90,18 @@ export default function Footer() {
           <p className="text-center text-stone-400 mb-3">
             &copy; {new Date().getFullYear()} CN Carpentry. All rights reserved.
           </p>
-          <p className="text-center text-stone-500 text-sm">
+          <p className="text-center text-stone-400 text-sm">
             Serving Bath, Keynsham, Bradford-on-Avon, Frome, Midsomer Norton,
             Radstock, Corsham, Melksham, Trowbridge &amp; surrounding areas
           </p>
-          <p className="text-center text-stone-600 text-xs mt-4">
+          <p className="text-center text-stone-400 text-xs mt-4">
             Website by{" "}
             <a
               href="https://seo-kings.co.uk"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="SEO Kings - website design and SEO (opens in new tab)"
-              className="text-stone-500 hover:text-primary-400 transition"
+              className="text-stone-300 hover:text-primary-400 transition underline underline-offset-2"
             >
               SEO Kings
             </a>

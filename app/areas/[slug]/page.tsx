@@ -189,7 +189,7 @@ export default function AreaPage({ params }: PageProps) {
                       <h3 className="text-lg font-bold text-stone-900 dark:text-white mb-1 group-hover:text-primary-600 transition">
                         {service.shortTitle}
                       </h3>
-                      <p className="text-stone-500 dark:text-stone-400 text-sm line-clamp-2">
+                      <p className="text-stone-600 dark:text-stone-400 text-sm line-clamp-2">
                         {service.shortTitle} in {area.name} &amp; surrounding
                         areas
                       </p>
@@ -295,7 +295,7 @@ export default function AreaPage({ params }: PageProps) {
           {/* Links to other main area pages */}
           {otherAreas.length > 0 && (
             <div className="text-center">
-              <p className="text-stone-500 dark:text-stone-400 text-sm mb-3">
+              <p className="text-stone-600 dark:text-stone-400 text-sm mb-3">
                 View our other main service areas:
               </p>
               <div className="flex flex-wrap justify-center gap-3">

@@ -24,6 +24,17 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Accessibility: inline links must be distinguishable by more than color */
+main p a,
+main li a:not([class*="rounded-full"]):not([class*="rounded-xl"]) {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+main p a:hover,
+main li a:not([class*="rounded-full"]):not([class*="rounded-xl"]):hover {
+  text-decoration-thickness: 2px;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
