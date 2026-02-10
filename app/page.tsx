@@ -268,7 +268,7 @@ export default function Home() {
                 Van Racking & Camper Conversions
               </h2>
               <p className="text-lg text-stone-300 leading-relaxed">
-                Something most carpenters don't offer! We specialise in custom van racking solutions for tradespeople and full camper van conversions with bespoke cabinetry, LED lighting, and professional finishes.
+                Something most carpenters don&apos;t offer! We specialise in custom van racking solutions for tradespeople and full camper van conversions with bespoke cabinetry, LED lighting, and professional finishes.
               </p>
               <ul className="space-y-3">
                 {[
