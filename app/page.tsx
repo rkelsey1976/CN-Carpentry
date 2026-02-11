@@ -34,14 +34,14 @@ export default function Home() {
             </div>
             <div className="relative h-[450px]">
               <Image
-                src="/van-conversion.png"
-                alt="CN Carpentry - Van Conversion"
+                src="/carpentry-work-1.png"
+                alt="Custom media wall with integrated lighting and display niches by CN Carpentry"
                 fill
                 className="object-cover rounded-3xl shadow-2xl"
               />
               <div className="absolute -bottom-4 -left-4 bg-white dark:bg-stone-800 rounded-xl shadow-xl p-4">
-                <p className="text-primary-600 font-bold text-lg">Van Conversions</p>
-                <p className="text-stone-600 text-sm">A service unique to us!</p>
+                <p className="text-primary-600 font-bold text-lg">Bespoke Media Walls</p>
+                <p className="text-stone-600 text-sm">Custom built to your design</p>
               </div>
             </div>
           </div>
