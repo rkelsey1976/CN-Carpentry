@@ -89,6 +89,25 @@ export default function ContactPage() {
                 </p>
               </div>
 
+              {/* Message Us */}
+              <div className="bg-white dark:bg-stone-900 p-6 rounded-2xl shadow-sm">
+                <h2 className="text-lg font-bold text-stone-900 dark:text-white mb-2">
+                  <span aria-hidden="true">💬</span> Message Us
+                </h2>
+                <a
+                  href="https://www.facebook.com/messages/t/61561476107137/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Message CN Carpentry on Facebook Messenger (opens in new tab)"
+                  className="block text-primary-600 hover:text-primary-700 font-semibold transition"
+                >
+                  Facebook Messenger
+                </a>
+                <p className="text-stone-600 dark:text-stone-400 text-sm mt-1">
+                  Send us a message anytime
+                </p>
+              </div>
+
               {/* Social */}
               <div className="bg-white dark:bg-stone-900 p-6 rounded-2xl shadow-sm">
                 <h2 className="text-lg font-bold text-stone-900 dark:text-white mb-2">
@@ -119,7 +138,20 @@ export default function ContactPage() {
 
             {/* Contact Form */}
             <div className="lg:col-span-3">
-              <form className="space-y-6 bg-white dark:bg-stone-900 p-8 rounded-2xl shadow-xl border-t-4 border-primary-600">
+              <form
+                name="contact"
+                method="POST"
+                data-netlify="true"
+                netlify-honeypot="bot-field"
+                action="/contact/success"
+                className="space-y-6 bg-white dark:bg-stone-900 p-8 rounded-2xl shadow-xl border-t-4 border-primary-600"
+              >
+                <input type="hidden" name="form-name" value="contact" />
+                <p className="hidden">
+                  <label>
+                    Don&apos;t fill this out: <input name="bot-field" />
+                  </label>
+                </p>
                 <h2 className="text-2xl font-bold text-stone-900 dark:text-white mb-2">
                   Request A Free Quote
                 </h2>
@@ -134,6 +166,7 @@ export default function ContactPage() {
                     </label>
                     <input
                       id="contact-name"
+                      name="name"
                       type="text"
                       placeholder="Your Name"
                       required
@@ -146,6 +179,7 @@ export default function ContactPage() {
                     </label>
                     <input
                       id="contact-email"
+                      name="email"
                       type="email"
                       placeholder="Your Email"
                       required
@@ -160,6 +194,7 @@ export default function ContactPage() {
                     </label>
                     <input
                       id="contact-phone"
+                      name="phone"
                       type="tel"
                       placeholder="Phone Number"
                       className="w-full px-6 py-4 rounded-xl border border-stone-300 dark:border-stone-600 bg-stone-50 dark:bg-stone-800 text-stone-900 dark:text-white focus:ring-2 focus:ring-primary-500 focus:border-transparent outline-none transition"
@@ -171,6 +206,7 @@ export default function ContactPage() {
                     </label>
                     <select
                       id="contact-service"
+                      name="service"
                       className="w-full px-6 py-4 rounded-xl border border-stone-300 dark:border-stone-600 bg-stone-50 dark:bg-stone-800 text-stone-900 dark:text-white focus:ring-2 focus:ring-primary-500 focus:border-transparent outline-none transition"
                     >
                       <option>Select Service</option>
@@ -192,6 +228,7 @@ export default function ContactPage() {
                   </label>
                   <textarea
                     id="contact-message"
+                    name="message"
                     placeholder="Tell us about your project..."
                     rows={6}
                     className="w-full px-6 py-4 rounded-xl border border-stone-300 dark:border-stone-600 bg-stone-50 dark:bg-stone-800 text-stone-900 dark:text-white focus:ring-2 focus:ring-primary-500 focus:border-transparent outline-none transition resize-none"
