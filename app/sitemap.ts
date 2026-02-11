@@ -14,7 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "skirting-architrave",
   ];
 
-  const areas = ["bath", "keynsham", "bradford-on-avon", "frome"];
+  const areas = ["bath", "keynsham", "bradford-on-avon", "frome", "midsomer-norton", "radstock", "corsham", "trowbridge"];
 
   const servicePages = services.map((service) => ({
     url: `${BASE_URL}/services/${service}`,

@@ -44,6 +44,10 @@ export default function Footer() {
               <li><Link href="/areas/keynsham" className="hover:text-white transition">Keynsham</Link></li>
               <li><Link href="/areas/bradford-on-avon" className="hover:text-white transition">Bradford-on-Avon</Link></li>
               <li><Link href="/areas/frome" className="hover:text-white transition">Frome</Link></li>
+              <li><Link href="/areas/midsomer-norton" className="hover:text-white transition">Midsomer Norton</Link></li>
+              <li><Link href="/areas/radstock" className="hover:text-white transition">Radstock</Link></li>
+              <li><Link href="/areas/corsham" className="hover:text-white transition">Corsham</Link></li>
+              <li><Link href="/areas/trowbridge" className="hover:text-white transition">Trowbridge</Link></li>
               <li><Link href="/areas" className="hover:text-white transition">All Areas &rarr;</Link></li>
             </ul>
           </div>

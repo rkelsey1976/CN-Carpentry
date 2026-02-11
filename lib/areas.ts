@@ -116,6 +116,106 @@ export const areas: AreaData[] = [
     image: "/area-frome.jpg",
     imageAlt: "Cheap Street in Frome, Somerset",
   },
+  {
+    slug: "midsomer-norton",
+    name: "Midsomer Norton",
+    metaTitle: "Carpenter in Midsomer Norton | CN Carpentry - Quality Joinery",
+    metaDescription:
+      "Professional carpenter in Midsomer Norton. Fitted wardrobes, media walls, alcove units, flooring, door hanging & more. Fully insured, free quotes. Call 07948 643391.",
+    heroHeading: "Carpenter in Midsomer Norton",
+    heroSubheading:
+      "Trusted carpentry services for Midsomer Norton and the Somer Valley. Quality craftsmanship, competitive prices.",
+    description:
+      "CN Carpentry provides a full range of carpentry services to homeowners across Midsomer Norton. From the High Street to the surrounding estates, we are your reliable local carpenter for everything from bespoke media walls to everyday door hanging and flooring.",
+    longDescription:
+      "Midsomer Norton sits at the heart of the Somer Valley, with a strong community feel and a lovely mix of stone-built houses, terraced cottages, and modern family homes. We know the area well and understand the needs of local properties - whether it is fitting alcove shelving in a traditional terrace or building a sleek media wall in a newer home. Our service is personal and professional: free quotes within 24 hours, fully insured, and we always leave your home clean and tidy. We cover Midsomer Norton itself plus Welton, Westfield, and surrounding villages.",
+    nearbyAreas: ["Radstock", "Bath", "Frome", "Keynsham"],
+    popularServices: [
+      "fitted-wardrobes",
+      "media-walls",
+      "alcove-units",
+      "door-hanging",
+      "flooring",
+      "skirting-architrave",
+    ],
+    image: "/area-midsomer-norton.jpg",
+    imageAlt: "High Street in Midsomer Norton, Somerset",
+  },
+  {
+    slug: "radstock",
+    name: "Radstock",
+    metaTitle: "Carpenter in Radstock | CN Carpentry - Local Carpentry Services",
+    metaDescription:
+      "Carpenter in Radstock, Somerset. Fitted wardrobes, alcove units, media walls, flooring, decking & more. Experienced with local properties. Free quotes. Call 07948 643391.",
+    heroHeading: "Carpenter in Radstock",
+    heroSubheading:
+      "Quality carpentry for Radstock homes. Based nearby, we offer fast response times and competitive prices.",
+    description:
+      "Radstock is a former mining town with bags of character, and we are proud to serve its residents. Whether you live in the town centre, Clandown, or one of the surrounding villages, CN Carpentry delivers reliable, high-quality carpentry tailored to your home.",
+    longDescription:
+      "Radstock has a rich history and a mix of housing styles - from stone-built miners' cottages to more modern developments. Each type of property brings its own challenges, and we have the experience to handle them all. Uneven walls? No problem. Low ceilings? We will work around them. Need fitted furniture that makes the most of an awkward space? That is exactly what we do. We bring the same quality to every job in Radstock, big or small. Free quotes, fully insured, and always on time.",
+    nearbyAreas: ["Midsomer Norton", "Bath", "Frome", "Westbury"],
+    popularServices: [
+      "fitted-wardrobes",
+      "alcove-units",
+      "media-walls",
+      "door-hanging",
+      "flooring",
+      "decking-fencing",
+    ],
+    image: "/area-radstock.jpg",
+    imageAlt: "Radstock mine wheel and museum, Somerset",
+  },
+  {
+    slug: "corsham",
+    name: "Corsham",
+    metaTitle: "Carpenter in Corsham | CN Carpentry - Bespoke Fitted Furniture",
+    metaDescription:
+      "Carpenter in Corsham, Wiltshire. Bespoke fitted wardrobes, alcove units, media walls, skirting & architrave. Experience with period properties. Free quotes. Call 07948 643391.",
+    heroHeading: "Carpenter in Corsham",
+    heroSubheading:
+      "Expert carpentry services for Corsham and surrounding Wiltshire villages. Period-sensitive work and modern solutions.",
+    description:
+      "Corsham is one of the most picturesque towns in Wiltshire, with its stunning Cotswold stone High Street and beautiful period properties. CN Carpentry understands the care required when working in heritage homes, and we combine traditional craftsmanship with modern techniques to deliver outstanding results.",
+    longDescription:
+      "Working in Corsham means respecting the character of the town. Many homes here are built from local Bath stone and feature original details that deserve careful attention. We specialise in bespoke fitted furniture that complements period features - alcove units that follow the lines of old walls, wardrobes built under sloped ceilings, and skirting boards that match original profiles. Whether your home overlooks the High Street, sits near Corsham Court, or is part of a newer development on the edge of town, we bring the same quality and dedication. Free quotes within 24 hours, fully insured, and every job guaranteed.",
+    nearbyAreas: ["Bradford-on-Avon", "Bath", "Trowbridge", "Melksham"],
+    popularServices: [
+      "fitted-wardrobes",
+      "alcove-units",
+      "skirting-architrave",
+      "door-hanging",
+      "flooring",
+      "media-walls",
+    ],
+    image: "/area-corsham.jpg",
+    imageAlt: "Corsham High Street, Wiltshire",
+  },
+  {
+    slug: "trowbridge",
+    name: "Trowbridge",
+    metaTitle: "Carpenter in Trowbridge | CN Carpentry - Fitted Furniture & Joinery",
+    metaDescription:
+      "Carpenter in Trowbridge, Wiltshire. Fitted wardrobes, media walls, alcove units, flooring, decking & more. Quality carpentry at competitive prices. Free quotes. Call 07948 643391.",
+    heroHeading: "Carpenter in Trowbridge",
+    heroSubheading:
+      "Professional carpentry services for Trowbridge and across west Wiltshire. Quality workmanship, fair prices.",
+    description:
+      "As the county town of Wiltshire, Trowbridge has a great range of housing - from the historic centre around Castle Street and Fore Street to the modern estates in Paxcroft Mead and beyond. CN Carpentry covers all of Trowbridge with a full range of carpentry and joinery services.",
+    longDescription:
+      "Trowbridge is a busy, growing town and its homes reflect that diversity. Victorian terraces near the town centre, post-war semis in established neighbourhoods, and new-build family homes on the outskirts all have different carpentry needs, and we cater to them all. Need a media wall in a modern lounge? Fitted wardrobes in a period bedroom? Decking for a new-build garden? We have you covered. We combine speed with quality - because we know that living in a building site is no fun. Free quotes, fully insured, and we always leave your home clean.",
+    nearbyAreas: ["Bradford-on-Avon", "Corsham", "Melksham", "Westbury"],
+    popularServices: [
+      "fitted-wardrobes",
+      "media-walls",
+      "alcove-units",
+      "flooring",
+      "decking-fencing",
+      "door-hanging",
+    ],
+    image: "/area-trowbridge.jpg",
+    imageAlt: "Castle Street in Trowbridge, Wiltshire",
+  },
 ];
 
 export function getAreaBySlug(slug: string): AreaData | undefined {

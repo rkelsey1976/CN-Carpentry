@@ -10,18 +10,14 @@ import { areas } from "@/lib/areas";
 export const metadata: Metadata = {
   title: "Areas We Cover",
   description:
-    "CN Carpentry serves Bath, Keynsham, Bradford-on-Avon, Frome & all surrounding areas. Professional carpentry services wherever you are. Free quotes. Call 07948 643391.",
+    "CN Carpentry serves Bath, Keynsham, Bradford-on-Avon, Frome, Midsomer Norton, Radstock, Corsham, Trowbridge & all surrounding areas. Professional carpentry services wherever you are. Free quotes. Call 07948 643391.",
   alternates: {
     canonical: "https://www.cncarpentry.co.uk/areas",
   },
 };
 
 const additionalAreas = [
-  "Midsomer Norton",
-  "Radstock",
-  "Corsham",
   "Melksham",
-  "Trowbridge",
   "Westbury",
   "Saltford",
   "Pensford",
@@ -32,6 +28,9 @@ const additionalAreas = [
   "Shepton Mallet",
   "Beckington",
   "Rode",
+  "Welton",
+  "Westfield",
+  "Clandown",
 ];
 
 export default function AreasPage() {

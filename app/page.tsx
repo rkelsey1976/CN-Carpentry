@@ -140,18 +140,18 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Media Wall with Storage */}
+            {/* Fitted Wardrobe */}
             <div className="relative h-80 rounded-2xl overflow-hidden group cursor-pointer">
               <Image
-                src="/alcove-unit-1.png"
-                alt="Bespoke Media Wall"
+                src="/fitted-wardrobe-1.jpg"
+                alt="Bespoke Fitted Wardrobe"
                 fill
                 className="object-cover group-hover:scale-110 transition duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-6">
                 <div>
-                  <h3 className="text-white font-bold text-xl mb-2">Bespoke Media Wall</h3>
-                  <p className="text-stone-300 text-sm">Custom fitted TV unit with drawers</p>
+                  <h3 className="text-white font-bold text-xl mb-2">Fitted Wardrobe</h3>
+                  <p className="text-stone-300 text-sm">Bespoke built-in wardrobe with custom interior</p>
                 </div>
               </div>
             </div>
@@ -184,6 +184,22 @@ export default function Home() {
                 <div>
                   <h3 className="text-white font-bold text-xl mb-2">Van Conversion</h3>
                   <p className="text-stone-300 text-sm">Custom camper interior with LED lighting</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Flooring */}
+            <div className="relative h-80 rounded-2xl overflow-hidden group cursor-pointer">
+              <Image
+                src="/flooring-2.jpg"
+                alt="Oak Flooring Installation"
+                fill
+                className="object-cover group-hover:scale-110 transition duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-6">
+                <div>
+                  <h3 className="text-white font-bold text-xl mb-2">Flooring Installation</h3>
+                  <p className="text-stone-300 text-sm">Engineered oak flooring professionally fitted</p>
                 </div>
               </div>
             </div>
@@ -548,6 +564,10 @@ export default function Home() {
               { name: "Keynsham", slug: "keynsham" },
               { name: "Bradford-on-Avon", slug: "bradford-on-avon" },
               { name: "Frome", slug: "frome" },
+              { name: "Midsomer Norton", slug: "midsomer-norton" },
+              { name: "Radstock", slug: "radstock" },
+              { name: "Corsham", slug: "corsham" },
+              { name: "Trowbridge", slug: "trowbridge" },
             ].map((area) => (
               <Link
                 key={area.slug}
@@ -559,7 +579,7 @@ export default function Home() {
             ))}
           </div>
           <p className="text-stone-400 text-sm mb-4">
-            Plus Midsomer Norton, Radstock, Corsham, Melksham, Trowbridge &amp; more
+            Plus Melksham, Westbury, Saltford, Pensford &amp; more
           </p>
           <Link href="/areas" className="text-primary-400 hover:text-primary-300 font-semibold transition">
             View all areas we cover &rarr;
@@ -586,9 +606,12 @@ export default function Home() {
             </a>
             <Link
               href="/contact"
-              className="inline-flex items-center justify-center border-2 border-white text-white px-8 py-4 rounded-full hover:bg-primary-700 transition font-semibold text-lg"
+              className="inline-flex items-center justify-center gap-2 border-2 border-white text-white px-8 py-4 rounded-full hover:bg-primary-700 transition font-semibold text-lg"
             >
-              Get A Free Quote &rarr;
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24" aria-hidden="true">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 011.13-1.897l8.932-8.931zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0115.75 21H5.25A2.25 2.25 0 013 18.75V8.25A2.25 2.25 0 015.25 6H10" />
+              </svg>
+              Get A Free Quote
             </Link>
           </div>
         </div>

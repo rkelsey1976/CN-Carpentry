@@ -82,8 +82,11 @@ export default function Header() {
 
           <Link
             href="/contact"
-            className="hidden md:inline-block bg-primary-600 text-white px-6 py-2 rounded-full hover:bg-primary-500 hover:shadow-lg transition transform hover:-translate-y-0.5"
+            className="hidden md:inline-flex items-center gap-2 bg-primary-600 text-white px-6 py-2 rounded-full hover:bg-primary-500 hover:shadow-lg transition transform hover:-translate-y-0.5"
           >
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24" aria-hidden="true">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 011.13-1.897l8.932-8.931zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0115.75 21H5.25A2.25 2.25 0 013 18.75V8.25A2.25 2.25 0 015.25 6H10" />
+            </svg>
             Get A Quote
           </Link>
         </div>
@@ -111,8 +114,11 @@ export default function Header() {
             <Link
               href="/contact"
               onClick={() => setMobileOpen(false)}
-              className="block bg-primary-600 text-white px-6 py-3 rounded-full text-center hover:bg-primary-500 transition font-semibold mt-3"
+              className="flex items-center justify-center gap-2 bg-primary-600 text-white px-6 py-3 rounded-full text-center hover:bg-primary-500 transition font-semibold mt-3"
             >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24" aria-hidden="true">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 011.13-1.897l8.932-8.931zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0115.75 21H5.25A2.25 2.25 0 013 18.75V8.25A2.25 2.25 0 015.25 6H10" />
+              </svg>
               Get A Quote
             </Link>
           </div>

@@ -118,8 +118,8 @@ const jsonLd = {
       ],
       geo: {
         "@type": "GeoCoordinates",
-        latitude: 51.3811,
-        longitude: -2.3590,
+        latitude: 51.3802,
+        longitude: -2.3981,
       },
       address: {
         "@type": "PostalAddress",
@@ -130,6 +130,7 @@ const jsonLd = {
       sameAs: [
         "https://www.instagram.com/cn_carpentry",
         "https://www.facebook.com/profile.php?id=61561476107137",
+        "https://nextdoor.co.uk/pages/cn-carpentry-building/",
       ],
       hasOfferCatalog: {
         "@type": "OfferCatalog",
@@ -290,8 +291,8 @@ export default function RootLayout({
         <link rel="apple-touch-icon" href="/cn-logo.png" />
         <meta name="geo.region" content="GB-SOM" />
         <meta name="geo.placename" content="Bath" />
-        <meta name="geo.position" content="51.3811;-2.3590" />
-        <meta name="ICBM" content="51.3811, -2.3590" />
+        <meta name="geo.position" content="51.3802;-2.3981" />
+        <meta name="ICBM" content="51.3802, -2.3981" />
       </head>
       <body className={inter.className}>
         <a
